@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="249.0" layoutY="30.0" text="Alan's listening bar" />
+      <TableView layoutX="14.0" layoutY="100.0" prefHeight="200.0" prefWidth="307.0">
+        <columns>
+          <TableColumn fx:id="album1" prefWidth="75.0" text="Album Name" />
+          <TableColumn fx:id="artist1" prefWidth="75.0" text="Artist" />
+            <TableColumn fx:id="available1" prefWidth="75.0" text="Available" />
+            <TableColumn fx:id="total1" prefWidth="75.0" text="Total" />
+        </columns>
+      </TableView>
+      <TextField fx:id="Album1" layoutX="381.0" layoutY="100.0" />
+      <TextField fx:id="artist" layoutX="381.0" layoutY="168.0" />
+      <TextField fx:id="total" layoutX="381.0" layoutY="233.0" />
+      <TextField fx:id="rented" layoutX="381.0" layoutY="300.0" />
+      <Label layoutX="381.0" layoutY="69.0" text="Album Title" />
+      <Label layoutX="381.0" layoutY="145.0" text="Artist Name" />
+      <Label layoutX="381.0" layoutY="209.0" text="Jumlah Total" />
+      <Label layoutX="381.0" layoutY="271.0" text="Jumlah Rented" />
+      <Button layoutX="24.0" layoutY="333.0" mnemonicParsing="false" text="Rent Selected" />
+      <Button layoutX="301.0" layoutY="347.0" mnemonicParsing="false" text="Hapus" />
+      <Button layoutX="391.0" layoutY="347.0" mnemonicParsing="false" text="Tambah" />
+      <Button layoutX="497.0" layoutY="347.0" mnemonicParsing="false" text="Update" />
+   </children>
+</AnchorPane>
